@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barContainerObjectsCreation.Caption" xml:space="preserve">
+    <value>Records Creation</value>
+  </data>
+  <data name="btn_QLCuaHang.Caption" xml:space="preserve">
+    <value>Cửa hàng</value>
+  </data>
+  <assembly alias="DevExpress.Data.v19.2" name="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="btn_QLCuaHang.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjIsIFZlcnNpb249MTkuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAEACAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
+        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5CbGFja3tmaWxsOiM3MjcyNzI7fQoJLkdyZWVue2ZpbGw6IzAz
+        OUMyMzt9CgkuUmVke2ZpbGw6I0QxMUMxQzt9Cgkuc3Qwe29wYWNpdHk6MC43NTt9Cgkuc3Qxe29wYWNp
+        dHk6MC41O30KPC9zdHlsZT4NCiAgPGcgaWQ9IkhvbWUiPg0KICAgIDxwb2x5Z29uIHBvaW50cz0iOCwy
+        OCA4LDE4IDIsMTggMTYsNCAzMCwxOCAyNCwxOCAyNCwyOCAxOCwyOCAxOCwxOCAxNCwxOCAxNCwyOCAg
+        IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="btn_Voucher.Caption" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="btn_Voucher.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjIsIFZlcnNpb249MTkuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAABsEAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
+        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
+        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
+        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
+        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
+        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
+        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJTYWxlMiI+DQogICAg
+        PHBhdGggZD0iTTE3LjcsMi4zTDIuMywxNy43Yy0wLjQsMC40LTAuNCwxLDAsMS40bDEwLjYsMTAuNmMw
+        LjQsMC40LDEsMC40LDEuNCwwbDE1LjQtMTUuNGMwLjItMC4yLDAuMy0wLjQsMC4zLTAuN1YzICAgYzAt
+        MC42LTAuNC0xLTEtMUgxOC40QzE4LjEsMiwxNy45LDIuMSwxNy43LDIuM3ogTTI0LDEwYy0xLjEsMC0y
+        LTAuOS0yLTJjMC0xLjEsMC45LTIsMi0yczIsMC45LDIsMkMyNiw5LjEsMjUuMSwxMCwyNCwxMHoiIGNs
+        YXNzPSJSZWQiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="barContainerClose.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="barContainerFile.Caption" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="barContainerSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btn_SanPham.Caption" xml:space="preserve">
+    <value>Sản phẩm</value>
+  </data>
+  <data name="btn_SanPham.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjIsIFZlcnNpb249MTkuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAABMFAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
+        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
+        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
+        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
+        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
+        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
+        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJPcmRlcl94NUZfSXRl
+        bSI+DQogICAgPGcgY2xhc3M9InN0MSI+DQogICAgICA8cGF0aCBkPSJNMTQsMjBoLTFjLTAuNiwwLTEt
+        MC40LTEtMXYtNGMwLTAuNiwwLjQtMSwxLTFoM1Y4SDJ2MTRoMTJWMjB6IiBjbGFzcz0iWWVsbG93IiAv
+        Pg0KICAgIDwvZz4NCiAgICA8ZyBjbGFzcz0ic3QwIj4NCiAgICAgIDxwb2x5Z29uIHBvaW50cz0iNiwy
+        IDIsNiAxNi42LDYgMjAuNiwyICAgIiBjbGFzcz0iWWVsbG93IiAvPg0KICAgIDwvZz4NCiAgICA8cG9s
+        eWdvbiBwb2ludHM9IjIyLDMuNCAxOCw3LjQgMTgsMTIgMjIsMTIgICIgY2xhc3M9IlllbGxvdyIgLz4N
+        CiAgICA8cGF0aCBkPSJNMjAsMjhjLTEuMSwwLTIsMC45LTIsMnMwLjksMiwyLDJzMi0wLjksMi0yUzIx
+        LjEsMjgsMjAsMjh6IE0zMCwzMGMwLDEuMS0wLjksMi0yLDJzLTItMC45LTItMnMwLjktMiwyLTIgICBT
+        MzAsMjguOSwzMCwzMHogTTMyLDI0djJIMTZ2LThoLTJ2LTJoNHY4SDMyeiBNMjAsMjJ2LThoMTB2OEgy
+        MHoiIGNsYXNzPSJCbGFjayIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="btn_DanhMuc.Caption" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="btn_DanhMuc.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjIsIFZlcnNpb249MTkuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAFQFAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJ
+        LlJlZHtmaWxsOiNEMTFDMUM7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtkaXNwbGF5Om5vbmU7fQoJLnN0MntkaXNwbGF5OmlubGluZTtmaWxsOiMw
+        MzlDMjM7fQoJLnN0M3tkaXNwbGF5OmlubGluZTtmaWxsOiNEMTFDMUM7fQoJLnN0NHtkaXNwbGF5Omlu
+        bGluZTtmaWxsOiM3MjcyNzI7fQo8L3N0eWxlPg0KICA8ZyBpZD0iRGV0YWlsZWQiPg0KICAgIDxwYXRo
+        IGQ9Ik04LDhINlY2aDJWOHogTTgsMTBINnYyaDJWMTB6IE04LDE0SDZ2MmgyVjE0eiBNOCwxOEg2djJo
+        MlYxOHogTTgsMjJINnYyaDJWMjJ6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgICA8cGF0aCBkPSJNMiwyOFYy
+        aDIydjEyLjNjMC43LDAuMiwxLjQsMC41LDIsMC44VjFjMC0wLjUtMC41LTEtMS0xSDFDMC41LDAsMCww
+        LjUsMCwxdjI4YzAsMC41LDAuNSwxLDEsMWgyMSAgIGMtMiwwLTMuOS0wLjgtNS4zLTJIMnoiIGNsYXNz
+        PSJCbGFjayIgLz4NCiAgICA8cGF0aCBkPSJNMzEuNiwyOS45TDI3LDI1LjNjMC42LTAuOSwxLTIuMSwx
+        LTMuM2MwLTMuMy0yLjctNi02LTZzLTYsMi43LTYsNnMyLjcsNiw2LDZjMS4yLDAsMi4zLTAuNCwzLjMt
+        MWw0LjYsNC42ICAgYzAuNSwwLjUsMS4zLDAuNSwxLjcsMEMzMi4xLDMxLjIsMzIuMSwzMC40LDMxLjYs
+        MjkuOXogTTIyLDI2Yy0yLjIsMC00LTEuOC00LTRzMS44LTQsNC00czQsMS44LDQsNFMyNC4yLDI2LDIy
+        LDI2eiIgY2xhc3M9IkJsdWUiIC8+DQogICAgPGcgY2xhc3M9InN0MCI+DQogICAgICA8cGF0aCBkPSJN
+        MTYuNywxNkgxMHYtMmgxMHYwLjNDMTguOCwxNC42LDE3LjYsMTUuMiwxNi43LDE2eiBNMjAsNkgxMHYy
+        aDEwVjZ6IE0yMCwxMEgxMHYyaDEwVjEweiBNMTQsMjJoLTR2Mmg0LjMgICAgQzE0LjEsMjMuNCwxNCwy
+        Mi43LDE0LDIyeiBNMTUuMSwxOEgxMHYyaDQuM0MxNC40LDE5LjMsMTQuNywxOC42LDE1LjEsMTh6IiBj
+        bGFzcz0iQmxhY2siIC8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="barContainerEdit.Caption" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="barContainerOpenObject.Caption" xml:space="preserve">
+    <value>Open Related Record</value>
+  </data>
+  <data name="barContainerUndoRedo.Caption" xml:space="preserve">
+    <value>UndoRedo</value>
+  </data>
+  <data name="barContainerReports.Caption" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="barContainerPrint.Caption" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="barContainerExport.Caption" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="barContainerRecordEdit.Caption" xml:space="preserve">
+    <value>Record Edit</value>
+  </data>
+  <data name="barContainerWorkflow.Caption" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="barContainerView.Caption" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="barContainerRecordsNavigation.Caption" xml:space="preserve">
+    <value>Records Navigation</value>
+  </data>
+  <data name="barContainerFilters.Caption" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="barContainerSearch.Caption" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="barContainerFullTextSearch.Caption" xml:space="preserve">
+    <value>Full Text Search</value>
+  </data>
+  <data name="barContainerTools.Caption" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="barContainerDiagnostic.Caption" xml:space="preserve">
+    <value>Diagnostic</value>
+  </data>
+  <data name="barContainerOptions.Caption" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="barContainerAbout.Caption" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="barContainerMenu.Caption" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="barContainerNotifications.Caption" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <metadata name="applicationMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>227, 17</value>
+  </metadata>
+  <data name="ribbonControl.ApplicationButtonText" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="barContainerStatusMessages.Caption" xml:space="preserve">
+    <value>StatusMessages</value>
+  </data>
+  <data name="btn_DangXuat.Caption" xml:space="preserve">
+    <value>Đăng xuât</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Các phương thức</value>
+  </data>
+  <data name="btn_PhuongThucThanhToan.Caption" xml:space="preserve">
+    <value>Thanh toán</value>
+  </data>
+  <data name="btn_PhuongThucThanhToan.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjIsIFZlcnNpb249MTkuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAH8HAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
+        R3JlZW57ZmlsbDojMDM5QzIzO30KCS5ZZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5CbHVle2ZpbGw6IzEx
+        NzdENzt9CgkuUmVke2ZpbGw6I0QxMUMxQzt9Cjwvc3R5bGU+DQogIDxnIGlkPSJDdXJyZW5jeUV4Y2hh
+        bmdlIj4NCiAgICA8cGF0aCBkPSJNMTEsMmMtNSwwLTksNC05LDljMCw1LDQsOSw5LDljNSwwLDktNCw5
+        LTlDMjAsNiwxNiwyLDExLDJ6IE0xNSw4LjVjLTAuNy0wLjQtMS41LTAuNi0yLjMtMC42ICAgYy0xLDAt
+        MS43LDAuMy0yLjMsMC45QzEwLDkuMSw5LjcsOS41LDkuNiwxMEgxM3YySDkuNmMwLjEsMC41LDAuNCww
+        LjksMC43LDEuM2MwLjYsMC42LDEuMywwLjgsMi4zLDAuOGMwLjksMCwxLjctMC4yLDIuNS0wLjZ2MiAg
+        IGMtMC43LDAuMy0xLjcsMC41LTIuOSwwLjVjLTEuNiwwLTIuOC0wLjQtMy43LTEuM0M3LjYsMTQsNy4y
+        LDEzLjEsNy4xLDEySDZ2LTJoMS4xYzAuMi0xLDAuNy0xLjksMS40LTIuNmMxLTEsMi4zLTEuNCwzLjkt
+        MS40ICAgYzEsMCwxLjgsMC4xLDIuNSwwLjRWOC41eiIgY2xhc3M9IlllbGxvdyIgLz4NCiAgICA8cGF0
+        aCBkPSJNMjEsMTJjLTUsMC05LDQtOSw5YzAsNSw0LDksOSw5YzUsMCw5LTQsOS05QzMwLDE2LDI2LDEy
+        LDIxLDEyeiBNMjQuMywyNC41Yy0wLjIsMC40LTAuNSwwLjctMC44LDAuOSAgIGMtMC40LDAuMi0wLjgs
+        MC40LTEuMiwwLjVjLTAuMSwwLTAuMiwwLTAuMywwVjI3aC0ydi0xYy0wLjIsMC0wLjUtMC4xLTAuNy0w
+        LjFjLTAuNS0wLjEtMC45LTAuMi0xLjMtMC40di0yLjIgICBjMC40LDAuMywwLjksMC42LDEuMywwLjdj
+        MC41LDAuMiwwLjksMC4yLDEuNCwwLjJjMC4zLDAsMC41LDAsMC43LTAuMWMwLjIsMCwwLjQtMC4xLDAu
+        NS0wLjJjMC4xLTAuMSwwLjItMC4yLDAuMy0wLjMgICBjMC4xLTAuMSwwLjEtMC4yLDAuMS0wLjRjMC0w
+        LjItMC4xLTAuNC0wLjItMC41Yy0wLjEtMC4xLTAuMy0wLjMtMC40LTAuNGMtMC4yLTAuMS0wLjQtMC4y
+        LTAuNy0wLjRjLTAuMy0wLjEtMC41LTAuMi0wLjgtMC40ICAgYy0wLjgtMC4zLTEuMy0wLjctMS43LTEu
+        MmMtMC40LTAuNS0wLjYtMS0wLjYtMS42YzAtMC41LDAuMS0wLjksMC4zLTEuM2MwLjItMC40LDAuNS0w
+        LjcsMC44LTAuOWMwLjMtMC4yLDAuNi0wLjMsMC45LTAuNFYxNWgydjEgICBjMC40LDAsMC44LDAsMS4x
+        LDAuMWMwLjQsMC4xLDAuNSwwLjEsMC45LDAuMnYyYy0wLjItMC4xLTAuMS0wLjEtMC4zLTAuMmMtMC4y
+        LTAuMS0wLjQtMC4yLTAuNi0wLjJjLTAuMi0wLjEtMC40LTAuMS0wLjYtMC4xICAgYy0wLjIsMC0wLjQs
+        MC0wLjYsMGMtMC4yLDAtMC41LDAtMC43LDAuMWMtMC4yLDAtMC40LDAuMS0wLjUsMC4yYy0wLjEsMC4x
+        LTAuMiwwLjItMC4zLDAuM2MtMC4xLDAuMS0wLjEsMC4zLTAuMSwwLjQgICBjMCwwLjIsMCwwLjMsMC4x
+        LDAuNGMwLjEsMC4xLDAuMiwwLjIsMC40LDAuNGMwLjIsMC4xLDAuMywwLjIsMC42LDAuM2MwLjIsMC4x
+        LDAuNSwwLjIsMC44LDAuM2MwLjQsMC4yLDAuNywwLjMsMSwwLjUgICBjMC4zLDAuMiwwLjYsMC40LDAu
+        OCwwLjZjMC4yLDAuMiwwLjQsMC41LDAuNSwwLjhjMC4xLDAuMywwLjIsMC42LDAuMiwxQzI0LjYsMjMu
+        NywyNC41LDI0LjEsMjQuMywyNC41eiIgY2xhc3M9IkdyZWVuIiAvPg0KICA8L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="btn_VanChuyen.Caption" xml:space="preserve">
+    <value>Vận chuyển</value>
+  </data>
+  <data name="btn_VanChuyen.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjIsIFZlcnNpb249MTkuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAIADAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
+        WWVsbG93e2ZpbGw6I0ZGQjExNTt9CgkuQmx1ZXtmaWxsOiMxMTc3RDc7fQoJLlJlZHtmaWxsOiNEMTFD
+        MUM7fQoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9CgkuR3JlZW57ZmlsbDojMDM5QzIzO30KCS5zdDB7Zmls
+        bDojNzI3MjcyO30KCS5zdDF7b3BhY2l0eTowLjU7fQoJLnN0MntvcGFjaXR5OjAuNzU7fQo8L3N0eWxl
+        Pg0KICA8ZyBpZD0iU2hpcG1lbnQiPg0KICAgIDxwYXRoIGQ9Ik0yOS40LDE1LjRMMjIsOFY3YzAtMC41
+        LTAuNS0xLTEtMUgzQzIuNSw2LDIsNi41LDIsN3YxNGMwLDAuNSwwLjUsMSwxLDFoMWMwLDIuMiwxLjgs
+        NCw0LDRzNC0xLjgsNC00aDRoNCAgIGMwLDIuMiwxLjgsNCw0LDRzNC0xLjgsNC00aDJ2LTJ2LTJ2LTEu
+        MkMzMCwxNi4zLDI5LjgsMTUuOCwyOS40LDE1LjR6IE04LDI0Yy0xLjEsMC0yLTAuOS0yLTJjMC0xLjEs
+        MC45LTIsMi0yczIsMC45LDIsMiAgIEMxMCwyMy4xLDkuMSwyNCw4LDI0eiBNMjQsMjRjLTEuMSwwLTIt
+        MC45LTItMmMwLTEuMSwwLjktMiwyLTJzMiwwLjksMiwyQzI2LDIzLjEsMjUuMSwyNCwyNCwyNHogTTIy
+        LDE2di01LjJsNS4yLDUuMkgyMnoiIGNsYXNzPSJCbHVlIiAvPg0KICA8L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="btn_NhanVien.Caption" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="btn_NhanVien.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v19.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE5LjIsIFZlcnNpb249MTkuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAOsDAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJ
+        LlJlZHtmaWxsOiNEMTFDMUM7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtkaXNwbGF5Om5vbmU7fQoJLnN0MntkaXNwbGF5OmlubGluZTtmaWxsOiMw
+        MzlDMjM7fQoJLnN0M3tkaXNwbGF5OmlubGluZTtmaWxsOiNEMTFDMUM7fQoJLnN0NHtkaXNwbGF5Omlu
+        bGluZTtmaWxsOiM3MjcyNzI7fQo8L3N0eWxlPg0KICA8ZyBpZD0iQ3VzdG9tZXJzIj4NCiAgICA8cGF0
+        aCBkPSJNMTAsOS45Yy0wLjEsMC41LDAuMiwwLjksMC40LDEuNHMtMC4xLDEuNywwLjksMS42YzAsMCww
+        LDAuMSwwLDAuMmMwLjYsMi4zLDIsNC45LDQuNyw0LjlzNC4yLTIuNiw0LjctNC45ICAgVjEzYzEsMC4x
+        LDAuNi0xLjEsMC45LTEuNmMwLjItMC41LDAuNC0wLjksMC4zLTEuNGMtMC4xLTAuNC0wLjQtMC40LTAu
+        NS0wLjNDMjMuMiw0LjgsMjAuMyw1LDIwLjMsNVMyMCwyLDE0LjgsMiAgIEMxMCwyLDkuNCw2LDEwLjUs
+        OS42QzEwLjQsOS42LDEwLjEsOS43LDEwLDkuOXogTTIwLDE4Yy0wLjgsMS41LTIuMSw0LTQsNHMtMy4y
+        LTIuNS00LTRjLTIuMywzLjUtOCwxLTgsOC41VjMwaDI0di0zLjUgICBDMjgsMTkuMSwyMi4zLDIxLjQs
+        MjAsMTh6IiBjbGFzcz0iR3JlZW4iIC8+DQogIDwvZz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ribbonControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ribbonGroupEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ribbonGroupRecordEdit.Text" xml:space="preserve">
+    <value>Record Edit</value>
+  </data>
+  <data name="ribbonGroupOpenObject.Text" xml:space="preserve">
+    <value>Open Related Record</value>
+  </data>
+  <data name="ribbonGroupWorkflow.Text" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="ribbonGroupView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ribbonGroupRecordsNavigation.Text" xml:space="preserve">
+    <value>Records Navigation</value>
+  </data>
+  <data name="ribbonGroupClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ribbonGroupFilters.Text" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="ribbonGroupSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ribbonGroupFullTextSearch.Text" xml:space="preserve">
+    <value>Full Text Search</value>
+  </data>
+  <data name="defaultPage.Text" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="ribbonGroupTools.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="ribbonGroupOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="ribbonGroupDiagnostic.Text" xml:space="preserve">
+    <value>Diagnostic</value>
+  </data>
+  <data name="toolsPage.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="ribbonPage1.Text" xml:space="preserve">
+    <value>Phương thức</value>
+  </data>
+  <data name="ribbonPage2.Text" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="ribbonControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>2172, 210</value>
+  </data>
+  <data name="ribbonStatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 966</value>
+  </data>
+  <data name="ribbonStatusBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ribbonStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>2172, 33</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Name" xml:space="preserve">
+    <value>ribbonStatusBar</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl.Name" xml:space="preserve">
+    <value>ribbonControl</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Ribbon.XafRibbonControlV2, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="viewSiteManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>370, 17</value>
+  </metadata>
+  <metadata name="modelSynchronizationManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 17</value>
+  </metadata>
+  <metadata name="formStateModelSynchronizer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>2172, 999</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerObjectsCreation.Name" xml:space="preserve">
+    <value>barActionContainerObjectsCreation</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerObjectsCreation.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerObjectsCreation.Name" xml:space="preserve">
+    <value>barContainerObjectsCreation</value>
+  </data>
+  <data name="&gt;&gt;barContainerObjectsCreation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_QLCuaHang.Name" xml:space="preserve">
+    <value>btn_QLCuaHang</value>
+  </data>
+  <data name="&gt;&gt;btn_QLCuaHang.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_Voucher.Name" xml:space="preserve">
+    <value>btn_Voucher</value>
+  </data>
+  <data name="&gt;&gt;btn_Voucher.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerClose.Name" xml:space="preserve">
+    <value>barActionContainerClose</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerClose.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerClose.Name" xml:space="preserve">
+    <value>barContainerClose</value>
+  </data>
+  <data name="&gt;&gt;barContainerClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerFile.Name" xml:space="preserve">
+    <value>barActionContainerFile</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerFile.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerFile.Name" xml:space="preserve">
+    <value>barContainerFile</value>
+  </data>
+  <data name="&gt;&gt;barContainerFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerSave.Name" xml:space="preserve">
+    <value>barActionContainerSave</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerSave.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerSave.Name" xml:space="preserve">
+    <value>barContainerSave</value>
+  </data>
+  <data name="&gt;&gt;barContainerSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_SanPham.Name" xml:space="preserve">
+    <value>btn_SanPham</value>
+  </data>
+  <data name="&gt;&gt;btn_SanPham.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_DanhMuc.Name" xml:space="preserve">
+    <value>btn_DanhMuc</value>
+  </data>
+  <data name="&gt;&gt;btn_DanhMuc.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerEdit.Name" xml:space="preserve">
+    <value>barActionContainerEdit</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerEdit.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerEdit.Name" xml:space="preserve">
+    <value>barContainerEdit</value>
+  </data>
+  <data name="&gt;&gt;barContainerEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerOpenObject.Name" xml:space="preserve">
+    <value>barActionContainerOpenObject</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerOpenObject.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerOpenObject.Name" xml:space="preserve">
+    <value>barContainerOpenObject</value>
+  </data>
+  <data name="&gt;&gt;barContainerOpenObject.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerUndoRedo.Name" xml:space="preserve">
+    <value>barActionContainerUndoRedo</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerUndoRedo.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerUndoRedo.Name" xml:space="preserve">
+    <value>barContainerUndoRedo</value>
+  </data>
+  <data name="&gt;&gt;barContainerUndoRedo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerReports.Name" xml:space="preserve">
+    <value>barActionContainerReports</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerReports.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerReports.Name" xml:space="preserve">
+    <value>barContainerReports</value>
+  </data>
+  <data name="&gt;&gt;barContainerReports.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerPrint.Name" xml:space="preserve">
+    <value>barActionContainerPrint</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerPrint.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerPrint.Name" xml:space="preserve">
+    <value>barContainerPrint</value>
+  </data>
+  <data name="&gt;&gt;barContainerPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerExport.Name" xml:space="preserve">
+    <value>barActionContainerExport</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerExport.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerExport.Name" xml:space="preserve">
+    <value>barContainerExport</value>
+  </data>
+  <data name="&gt;&gt;barContainerExport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerRecordEdit.Name" xml:space="preserve">
+    <value>barActionContainerRecordEdit</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerRecordEdit.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerRecordEdit.Name" xml:space="preserve">
+    <value>barContainerRecordEdit</value>
+  </data>
+  <data name="&gt;&gt;barContainerRecordEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerWorkflow.Name" xml:space="preserve">
+    <value>barActionContainerWorkflow</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerWorkflow.Name" xml:space="preserve">
+    <value>barContainerWorkflow</value>
+  </data>
+  <data name="&gt;&gt;barContainerWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerView.Name" xml:space="preserve">
+    <value>barActionContainerView</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerView.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerView.Name" xml:space="preserve">
+    <value>barContainerView</value>
+  </data>
+  <data name="&gt;&gt;barContainerView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerRecordsNavigation.Name" xml:space="preserve">
+    <value>barActionContainerRecordsNavigation</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerRecordsNavigation.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerRecordsNavigation.Name" xml:space="preserve">
+    <value>barContainerRecordsNavigation</value>
+  </data>
+  <data name="&gt;&gt;barContainerRecordsNavigation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerFilters.Name" xml:space="preserve">
+    <value>barActionContainerFilters</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerFilters.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerFilters.Name" xml:space="preserve">
+    <value>barContainerFilters</value>
+  </data>
+  <data name="&gt;&gt;barContainerFilters.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerSearch.Name" xml:space="preserve">
+    <value>barActionContainerSearch</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerSearch.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerSearch.Name" xml:space="preserve">
+    <value>barContainerSearch</value>
+  </data>
+  <data name="&gt;&gt;barContainerSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerFullTextSearch.Name" xml:space="preserve">
+    <value>barActionContainerFullTextSearch</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerFullTextSearch.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerFullTextSearch.Name" xml:space="preserve">
+    <value>barContainerFullTextSearch</value>
+  </data>
+  <data name="&gt;&gt;barContainerFullTextSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerTools.Name" xml:space="preserve">
+    <value>barActionContainerTools</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerTools.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerTools.Name" xml:space="preserve">
+    <value>barContainerTools</value>
+  </data>
+  <data name="&gt;&gt;barContainerTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerDiagnostic.Name" xml:space="preserve">
+    <value>barActionContainerDiagnostic</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerDiagnostic.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerDiagnostic.Name" xml:space="preserve">
+    <value>barContainerDiagnostic</value>
+  </data>
+  <data name="&gt;&gt;barContainerDiagnostic.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerOptions.Name" xml:space="preserve">
+    <value>barActionContainerOptions</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerOptions.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerOptions.Name" xml:space="preserve">
+    <value>barContainerOptions</value>
+  </data>
+  <data name="&gt;&gt;barContainerOptions.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerAbout.Name" xml:space="preserve">
+    <value>barActionContainerAbout</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerAbout.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerAbout.Name" xml:space="preserve">
+    <value>barContainerAbout</value>
+  </data>
+  <data name="&gt;&gt;barContainerAbout.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerMenu.Name" xml:space="preserve">
+    <value>barActionContainerMenu</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerMenu.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerMenu.Name" xml:space="preserve">
+    <value>barContainerMenu</value>
+  </data>
+  <data name="&gt;&gt;barContainerMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerNotifications.Name" xml:space="preserve">
+    <value>barActionContainerNotifications</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerNotifications.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerNotifications.Name" xml:space="preserve">
+    <value>barContainerNotifications</value>
+  </data>
+  <data name="&gt;&gt;barContainerNotifications.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu.Name" xml:space="preserve">
+    <value>applicationMenu</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.ApplicationMenu, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerStatusMessages.Name" xml:space="preserve">
+    <value>barContainerStatusMessages</value>
+  </data>
+  <data name="&gt;&gt;barContainerStatusMessages.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_DangXuat.Name" xml:space="preserve">
+    <value>btn_DangXuat</value>
+  </data>
+  <data name="&gt;&gt;btn_DangXuat.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_PhuongThucThanhToan.Name" xml:space="preserve">
+    <value>btn_PhuongThucThanhToan</value>
+  </data>
+  <data name="&gt;&gt;btn_PhuongThucThanhToan.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_VanChuyen.Name" xml:space="preserve">
+    <value>btn_VanChuyen</value>
+  </data>
+  <data name="&gt;&gt;btn_VanChuyen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btn_NhanVien.Name" xml:space="preserve">
+    <value>btn_NhanVien</value>
+  </data>
+  <data name="&gt;&gt;btn_NhanVien.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;defaultPage.Name" xml:space="preserve">
+    <value>defaultPage</value>
+  </data>
+  <data name="&gt;&gt;defaultPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupObjectsCreation.Name" xml:space="preserve">
+    <value>ribbonGroupObjectsCreation</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupObjectsCreation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupSave.Name" xml:space="preserve">
+    <value>ribbonGroupSave</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupEdit.Name" xml:space="preserve">
+    <value>ribbonGroupEdit</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupRecordEdit.Name" xml:space="preserve">
+    <value>ribbonGroupRecordEdit</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupRecordEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupOpenObject.Name" xml:space="preserve">
+    <value>ribbonGroupOpenObject</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupOpenObject.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupWorkflow.Name" xml:space="preserve">
+    <value>ribbonGroupWorkflow</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupView.Name" xml:space="preserve">
+    <value>ribbonGroupView</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupRecordsNavigation.Name" xml:space="preserve">
+    <value>ribbonGroupRecordsNavigation</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupRecordsNavigation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupClose.Name" xml:space="preserve">
+    <value>ribbonGroupClose</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupFilters.Name" xml:space="preserve">
+    <value>ribbonGroupFilters</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupFilters.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupSearch.Name" xml:space="preserve">
+    <value>ribbonGroupSearch</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupFullTextSearch.Name" xml:space="preserve">
+    <value>ribbonGroupFullTextSearch</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupFullTextSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toolsPage.Name" xml:space="preserve">
+    <value>toolsPage</value>
+  </data>
+  <data name="&gt;&gt;toolsPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupTools.Name" xml:space="preserve">
+    <value>ribbonGroupTools</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupOptions.Name" xml:space="preserve">
+    <value>ribbonGroupOptions</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupOptions.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupDiagnostic.Name" xml:space="preserve">
+    <value>ribbonGroupDiagnostic</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroupDiagnostic.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage1.Name" xml:space="preserve">
+    <value>ribbonPage1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
+    <value>ribbonPageGroup1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup2.Name" xml:space="preserve">
+    <value>ribbonPageGroup2</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage2.Name" xml:space="preserve">
+    <value>ribbonPage2</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup3.Name" xml:space="preserve">
+    <value>ribbonPageGroup3</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;viewSiteManager.Name" xml:space="preserve">
+    <value>viewSiteManager</value>
+  </data>
+  <data name="&gt;&gt;viewSiteManager.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.ViewSiteManager, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;modelSynchronizationManager.Name" xml:space="preserve">
+    <value>modelSynchronizationManager</value>
+  </data>
+  <data name="&gt;&gt;modelSynchronizationManager.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.ModelSynchronizationManager, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;formStateModelSynchronizer.Name" xml:space="preserve">
+    <value>formStateModelSynchronizer</value>
+  </data>
+  <data name="&gt;&gt;formStateModelSynchronizer.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Core.FormStateModelSynchronizer, DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Name" xml:space="preserve">
+    <value>contextMenu</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabbedMdiManager1.Name" xml:space="preserve">
+    <value>xtraTabbedMdiManager1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabbedMdiManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTabbedMdi.XtraTabbedMdiManager, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_Main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <metadata name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>737, 17</value>
+  </metadata>
+  <metadata name="xtraTabbedMdiManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>926, 17</value>
+  </metadata>
+</root>
